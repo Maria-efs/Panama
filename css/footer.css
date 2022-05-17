@@ -1,0 +1,31 @@
+footer{
+    display: flex;
+    height: 100px;
+}
+
+.texto4{
+    color: white;
+    position: absolute;
+    width: 414px;
+    height: 48px;
+    left: 753px;
+    top: 880px;
+    font-family: 'Gupter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    text-align: center;
+}
+
+.spanColorido{
+    color: #FED700;
+}
+
+@media (max-width: 360px){
+    .texto4{
+        font-size: 50px;
+        top: 3200px;
+        left: 400px;
+        position: fixed;
+    }
+}
